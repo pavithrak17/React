@@ -5,6 +5,7 @@ import Changestate from './Reactprog/Changestate';
 //import Greet from './Reactprog/Greet';
 import Welcome from './Reactprog/Welcome';
 import Httpreq from'./Reactprog/Httpreq';
+import Statefunction from './Reactprog/Statefunction';
 function App() {
   return (
     <div className="App">
@@ -19,8 +20,8 @@ function App() {
 {/* <Welcome name=" 896 students" branch=" CSE"/>
 {/* <Event/>*/}
 {/* <ExampUseeffect/> */}
-<Httpreq/>
-
+{/*<Httpreq/>*/}
+<Statefunction/>
     </div>
   );
 }
